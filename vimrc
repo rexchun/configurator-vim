@@ -14,11 +14,6 @@ call vundle#begin()
 "Let Vundle manages Vundle.  This is required.
 Plugin 'VundleVim/Vundle.vim'
 
-"--- Color Schemes -----------------------------------------------------------
-Plugin 'altercation/vim-colors-solarized.git'
-"Plugin 'chriskempson/base16-vim.git'
-"Plugin 'morhetz/gruvbox.git'
-
 "--- Status Lines ------------------------------------------------------------
 Plugin 'itchyny/lightline.vim.git'
 "Plugin 'powerline/powerline.git'
