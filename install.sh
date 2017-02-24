@@ -4,16 +4,13 @@ SCRIPT_DIR=$( cd "$( dirname "${BASH_SOURCE[0]}"  )" && pwd  )
 cd "$SCRIPT_DIR"
 
 conf_linker(){
-if [ -e "$link_path" ]; then
-    if [ -h "$link_path" ]; then
-        rm -f "$link_path"
-    else
-        mv "$link_path" "$link_path.$(date +%Y%m%d)"
-    fi
-    ln -s "$SCRIPT_DIR/$target_path" "$link_path"
-else
-    ln -s "$SCRIPT_DIR/$target_path" "$link_path"
-fi
+  if [ -h "$link_path" ]; then
+    rm -f "$link_path"
+  fi
+  if [ -e "$link_path" ]; then
+    mv "$link_path" "$link_path.$(date +%Y%m%d)"
+  fi
+  ln -s "$SCRIPT_DIR/$target_path" "$link_path"
 }
 
 link_path="$HOME/.vimrc"
