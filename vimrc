@@ -15,9 +15,9 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 "--- Color Schemes -----------------------------------------------------------
-"Plugin 'altercation/vim-colors-solarized.git'
+Plugin 'altercation/vim-colors-solarized.git'
 "Plugin 'chriskempson/base16-vim.git'
-Plugin 'morhetz/gruvbox.git'
+"Plugin 'morhetz/gruvbox.git'
 
 "--- Status Lines ------------------------------------------------------------
 Plugin 'itchyny/lightline.vim.git'

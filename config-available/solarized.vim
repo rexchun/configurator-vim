@@ -26,7 +26,7 @@ let g:solarized_visibility="high"
 colorscheme solarized
 
 " Set the background to a dark color.
-set background=light
+set background=dark
 
 if has('gui_running')
   " Set F5 to toggle dark/light background.
