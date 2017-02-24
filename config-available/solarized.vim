@@ -17,10 +17,10 @@ let g:solarized_underline=1
 let g:solarized_italic=1
 
 " Set the contrast.
-let g:solarized_contrast="high"
+let g:solarized_contrast="normal"
 
 " Set the visibility.
-let g:solarized_visibility="high"
+let g:solarized_visibility="normal"
 
 " Set the colorscheme to solarized.
 colorscheme solarized
