@@ -37,3 +37,4 @@ if [ ! -d "${plugins_dir}/Vundle.vim" ]; then
 fi
 
 #vim +PluginInstall +qall
+vim -c ':PluginInstall' -c ':qall'
