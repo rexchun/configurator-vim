@@ -34,12 +34,13 @@ Plugin 'scrooloose/nerdtree.git'
 Plugin 'sjl/gundo.vim.git'
 Plugin 'tmhedberg/SimpylFold.git'
 
-"--- Auto-Editing ------------------------------------------------------------
+"--- IDE ---------------------------------------------------------------------
 Plugin 'godlygeek/tabular.git'
 Plugin 'jiangmiao/auto-pairs.git'
 Plugin 'rkulla/pydiction.git'
 Plugin 'suan/vim-instant-markdown.git'
 Plugin 'tpope/vim-surround.git'
+Plugin 'vim-scripts/bash-support.vim'
 
 "--- Syntax ------------------------------------------------------------------
 Plugin 'fatih/vim-go.git'
