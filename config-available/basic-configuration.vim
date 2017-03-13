@@ -87,12 +87,9 @@ vnoremap <A-k> :m '<-2<CR>gv=gv
 "=== GUI Settings ============================================================
 if has('gui_running')
   set lines=34 columns=120
-  set guifont=Terminus\ 12
+  set guifont=Luxi\ Mono\ 11
 
   " Expand the syntax menu automatically.
   let do_syntax_sel_menu = 1
   runtime! synmenu.vim
-
-  " Show file types in the syntax menu.
-  aunmenu &Syntax.&Show\ filetypes\ in\ menu
 endif
