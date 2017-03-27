@@ -26,26 +26,26 @@ Plugin 'tpope/vim-fugitive.git'
 Plugin 'Xuyuanp/nerdtree-git-plugin.git'
 
 "--- Utilites ----------------------------------------------------------------
-"Plugin 'ervandew/supertab.git'
 Plugin 'jistr/vim-nerdtree-tabs.git'
 Plugin 'jlanzarotta/bufexplorer.git'
 Plugin 'kien/ctrlp.vim.git'
 Plugin 'scrooloose/nerdtree.git'
 Plugin 'sjl/gundo.vim.git'
 Plugin 'tmhedberg/SimpylFold.git'
+"Plugin 'ervandew/supertab.git'
 
 "--- IDE ---------------------------------------------------------------------
 Plugin 'godlygeek/tabular.git'
 Plugin 'jiangmiao/auto-pairs.git'
-Plugin 'rkulla/pydiction.git'
 Plugin 'suan/vim-instant-markdown.git'
 Plugin 'tpope/vim-surround.git'
-Plugin 'vim-scripts/bash-support.vim'
+"Plugin 'rkulla/pydiction.git'
+"Plugin 'vim-scripts/bash-support.vim'
 
 "--- Syntax ------------------------------------------------------------------
-Plugin 'fatih/vim-go.git'
 Plugin 'keith/tmux.vim.git'
 Plugin 'scrooloose/syntastic.git'
+"Plugin 'fatih/vim-go.git'
 
 "--- Other -------------------------------------------------------------------
 Plugin 'tpope/vim-abolish.git'
