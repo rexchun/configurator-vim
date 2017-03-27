@@ -42,6 +42,12 @@ Plugin 'tpope/vim-surround.git'
 "Plugin 'rkulla/pydiction.git'
 "Plugin 'vim-scripts/bash-support.vim'
 
+"--- Snippets ----------------------------------------------------------------
+Plugin 'MarcWeber/vim-addon-mw-utils'
+Plugin 'tomtom/tlib_vim'
+Plugin 'garbas/vim-snipmate'
+Plugin 'honza/vim-snippets'
+
 "--- Syntax ------------------------------------------------------------------
 Plugin 'keith/tmux.vim.git'
 Plugin 'scrooloose/syntastic.git'
