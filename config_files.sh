@@ -4,7 +4,7 @@
 # The value is the path of the symlink for the configuration.
 configs=(
   ["${SCRIPT_DIR}"]="$HOME/.vim"
-  ["${SCRIPT_DIR}/mock_config"]="$HOME/.vimrc"
+  ["${SCRIPT_DIR}/vimrc"]="$HOME/.vimrc"
 )
 
 export configs
