@@ -39,6 +39,8 @@ Plugin 'godlygeek/tabular.git'
 Plugin 'jiangmiao/auto-pairs.git'
 Plugin 'suan/vim-instant-markdown.git'
 Plugin 'tpope/vim-surround.git'
+"The tabular plugin must come before vim-markdown.
+Plugin 'plasticboy/vim-markdown'
 "Plugin 'rkulla/pydiction.git'
 "Plugin 'vim-scripts/bash-support.vim'
 
